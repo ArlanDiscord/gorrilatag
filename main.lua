@@ -7,6 +7,9 @@
 █▀ █▀▀ █▀█ █ █▀█ ▀█▀
 ▄█ █▄▄ █▀▄ █ █▀▀ ░█░
 
+Discord: kp1ners#0722
+YouTube: @kp1ners
+
 ]]--
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/Tuturial_UI_Library/main/UI_Template_1"))()
 local Window = Library.CreateLib("Gorilla Tag { UI SCRIPT }", "RJTheme3")
@@ -16,7 +19,7 @@ local Tab = Window:NewTab("Action")
 local Player = game:GetService("Players").LocalPlayer
 local Section = Tab:NewSection("Choose Actions:")
 local CreditTab = Window:NewTab("Credits")
-local SectionCredit = CreditTab:NewSection("Discord: kp1ners#0722, Youtube: @kp1ners, This is cheat typed from Kazakhstan :)")
+local SectionCredit = CreditTab:NewSection("Discord: kp1ners#0722, Youtube: @kp1ners")
 local colors = {
 	-- Цвет фона у Секций
     SchemeColor = Color3.fromRGB(128, 0, 0),
