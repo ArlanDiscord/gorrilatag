@@ -18,7 +18,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ArlanDiscord/gorrilat
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/Tuturial_UI_Library/main/UI_Template_1"))()
 local Window = Library.CreateLib("Gorilla Tag { UI SCRIPT } v.0.0.4", "RJTheme3")
 local gameid = game.PlaceId
-if(gameid == 8690998110) then
+if(gameid == 8690998110) or (gameid == 8999652322) then
 local Tab = Window:NewTab("Action")
 local Player = game:GetService("Players").LocalPlayer
 local Section = Tab:NewSection("Choose Actions:")
