@@ -16,7 +16,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ArlanDiscord/gorrilat
 ======================================================================================================
 ]]--
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/Tuturial_UI_Library/main/UI_Template_1"))()
-local Window = Library.CreateLib("Gorilla Tag { UI SCRIPT }", "RJTheme3")
+local Window = Library.CreateLib("Gorilla Tag { UI SCRIPT } v.0.0.1", "RJTheme3")
 local gameid = game.PlaceId
 if(gameid == 8690998110) then
 local Tab = Window:NewTab("Action")
@@ -24,6 +24,7 @@ local Player = game:GetService("Players").LocalPlayer
 local Section = Tab:NewSection("Choose Actions:")
 local CreditTab = Window:NewTab("Credits")
 local SectionCredit = CreditTab:NewSection("Discord: kp1ners#0722, Youtube: @kp1ners")
+local SectionCredit1 = CreditTab:NewSection("Script Version: v.0.0.1")
 local colors = {
 	-- Цвет фона у Секций
     SchemeColor = Color3.fromRGB(128, 0, 0),
@@ -48,4 +49,7 @@ else
 local Error = Window:NewTab("Error")
 local SectionError = Error:NewSection("This place is not supported for this script")
 local SectionError1 = Error:NewSection("You need to join to the Gorrilla Tag!")
+local CreditTab = Window:NewTab("Credits")
+local SectionCredit = CreditTab:NewSection("Discord: kp1ners#0722, Youtube: @kp1ners")
+local SectionCredit1 = CreditTab:NewSection("Script Version: v.0.0.1")
 end
