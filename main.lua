@@ -54,11 +54,13 @@ end)
 Section:NewButton("Reset Settings", "If you click this you reset jump and speed", function(l)
 	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 32
 	game.Players.LocalPlayer.Character.Humanoid.JumpPower = 62
+	game.Players.LocalPlayer.Character.Humanoid.HipHeight = 1.35
 end)
 
 Section:NewKeybind("Reset Settings [BIND]", "If you press bind you reset jump and speed", Enum.KeyCode.P, function(k)
 	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 32
 	game.Players.LocalPlayer.Character.Humanoid.JumpPower = 62
+	game.Players.LocalPlayer.Character.Humanoid.HipHeight = 1.35
 end)
 
 else
