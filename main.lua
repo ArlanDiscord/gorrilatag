@@ -23,7 +23,7 @@ local Tab = Window:NewTab("Action")
 local Player = game:GetService("Players").LocalPlayer
 local Section = Tab:NewSection("Choose Actions:")
 local CreditTab = Window:NewTab("Credits")
-local SectionCredit = CreditTab:NewSection("Discord: kp1ners#0722, Youtube: @kp1ners")
+local SectionCredit = CreditTab:NewSection("Discord: тарелка#0722, Youtube: @kp1ners")
 local SectionCredit1 = CreditTab:NewSection("Script Version: v.0.0.2")
 local colors = {
 	-- Цвет фона у Секций
@@ -50,6 +50,6 @@ local Error = Window:NewTab("Error")
 local SectionError = Error:NewSection("This place is not supported for this script")
 local SectionError1 = Error:NewSection("You need to join to the Gorrilla Tag!")
 local CreditTab = Window:NewTab("Credits")
-local SectionCredit = CreditTab:NewSection("Discord: kp1ners#0722, Youtube: @kp1ners")
+local SectionCredit = CreditTab:NewSection("Discord: тарелка#0722, Youtube: @kp1ners")
 local SectionCredit1 = CreditTab:NewSection("Script Version: v.0.0.2")
 end
