@@ -10,6 +10,10 @@
 Discord: kp1ners#0722
 YouTube: @kp1ners
 
+copy and execute in cheat:
+======================================================================================================
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ArlanDiscord/gorrilatag/main/main.lua"))()
+======================================================================================================
 ]]--
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/Tuturial_UI_Library/main/UI_Template_1"))()
 local Window = Library.CreateLib("Gorilla Tag { UI SCRIPT }", "RJTheme3")
