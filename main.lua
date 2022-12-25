@@ -16,7 +16,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ArlanDiscord/gorrilat
 ======================================================================================================
 ]]--
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/Tuturial_UI_Library/main/UI_Template_1"))()
-local Window = Library.CreateLib("Gorilla Tag { UI SCRIPT } v.0.0.4", "RJTheme3")
+local Window = Library.CreateLib("Gorilla Tag { UI SCRIPT } v.0.0.5", "RJTheme3")
 local gameid = game.PlaceId
 if(gameid == 8690998110) or (gameid == 8999652322) then
 local Tab = Window:NewTab("Action")
@@ -25,7 +25,7 @@ local Section = Tab:NewSection("Choose Actions:")
 local CreditTab = Window:NewTab("Credits")
 local SectionCredit = CreditTab:NewSection("Discord: тарелка#0722, Youtube: @kp1ners")
 local SectionCredit2 = CreditTab:NewSection("Script made from Kazakhstan :)")
-local SectionCredit3 = CreditTab:NewSection("Script Version: v.0.0.4")
+local SectionCredit3 = CreditTab:NewSection("Script Version: v.0.0.5")
 local colors = {
 	-- Цвет фона у Секций
     SchemeColor = Color3.fromRGB(128, 0, 0),
@@ -41,6 +41,10 @@ local colors = {
 print("[Cheat]: Script Gorilla Tag has been enabled!")
 Section:NewSlider("Speed", "Drag this line for speed", 200, 32, function(s)
 	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
+Section:NewSlider("AirWalk", "Drag this for walk in air", 150, 1.35, function(b)
+	game.Players.LocalPlayer.Character.Humanoid.HipHeight = b
 end)
 
 Section:NewSlider("Jump", "Drag this line for jump", 200, 62, function(a)
@@ -64,5 +68,5 @@ local SectionError1 = Error:NewSection("You need to join to the Gorrilla Tag!")
 local CreditTab = Window:NewTab("Credits")
 local SectionCredit = CreditTab:NewSection("Discord: тарелка#0722, Youtube: @kp1ners")
 local SectionCredit2 = CreditTab:NewSection("Script made from Kazakhstan :)")
-local SectionCredit3 = CreditTab:NewSection("Script Version: v.0.0.4")
+local SectionCredit3 = CreditTab:NewSection("Script Version: v.0.0.5")
 end
